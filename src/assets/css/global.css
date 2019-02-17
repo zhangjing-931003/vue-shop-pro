@@ -9,8 +9,24 @@ body,
 
 .el-submenu_title,
 .el-menu-item {
-  font-size:13px;
+  font-size: 13px;
 }
-i.iconfont{
-  margin-right:10px;
+
+i.iconfont {
+  margin-right: 10px;
+}
+
+/*给各个功能模块的card卡片区设置统一样式*/
+.box-card {
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 15) !important
+}
+
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.el-pagination {
+  margin-top: 15px;
+  font-size: 12px;
 }
